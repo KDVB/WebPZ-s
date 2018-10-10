@@ -3,9 +3,22 @@ h1 {
   color: rgb(51, 108, 255);
 }
 
+h2 {
+  text-align: center;
+  font-size: 16px;
+}
+
 * {
   margin: 0;
   padding: 0;
+}
+
+p {
+  padding: 5px;
+}
+
+body {
+  background-color: lightgrey;
 }
 
 .head {
@@ -66,4 +79,90 @@ h1 {
 
 .head_text p a:hover {
   text-decoration: underline;
+}
+
+.horizon_line {
+  width: 100%;
+  border-bottom: 3px solid blue;
+}
+
+.about_head {
+  text-indent: 20px;
+  text-align: justify;
+}
+
+.about {
+  display: block;
+  width: 100%;
+  height: 320px;
+}
+
+.about_img {
+  display: block;
+  float: left;
+  width: 10%;
+  height: 300px;
+}
+.about_img img {
+  width: 155px;
+  height: 250px;
+  margin: 20px;
+}
+
+.about_text {
+  display: block;
+  margin-top: 20px;
+  float: left;
+  width: 90%;
+  height: 300px;
+}
+
+.about_text p {
+  text-indent: 20px;
+  text-align: justify;
+}
+
+.about_text p a {
+  color: green;
+  text-decoration: none;
+}
+
+.about_text p a:hover {
+  text-decoration: underline;
+}
+
+.zm {
+  display: block;
+  width: 100%;
+  height: 400px;
+}
+
+.zm h3 {
+  text-align: left;
+  text-indent: 5px;
+}
+
+.zm p {
+  text-align: justify;
+  text-indent: 15px;
+}
+
+.zm p a {
+  color: green;
+  text-decoration: none;
+}
+
+.zm p a:hover {
+  text-decoration: underline;
+}
+
+.rozdeli {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.rozdeli p {
+  text-align: justify;
+  text-indent: 20px;
 }
